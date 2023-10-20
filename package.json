@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A Node.js module to send SMS using the Free Mobile API",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +16,10 @@
   "license": "ISC",
   "files": [
     "index.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentMLSE/free-mobile-api-node"
+  },
+  "homepage": "https://github.com/VincentMLSE/free-mobile-api-node#readme"
 }

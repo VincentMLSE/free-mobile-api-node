@@ -1,4 +1,4 @@
-export default async function FreeMobileSms(user, pass, message) {
+async function FreeMobileSms(user, pass, message) {
 
     const url = `https://smsapi.free-mobile.fr/sendmsg?user=${user}&pass=${pass}&msg=${encodeURIComponent(message)}`
 
@@ -11,3 +11,5 @@ export default async function FreeMobileSms(user, pass, message) {
 
     return true
 }
+
+module.exports = FreeMobileSms
