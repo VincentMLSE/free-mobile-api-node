@@ -1,0 +1,21 @@
+{
+  "name": "free-mobile-api-node",
+  "version": "1.0.0",
+  "description": "A Node.js module to send SMS using the Free Mobile API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "free",
+    "mobile",
+    "sms",
+    "api"
+  ],
+  "author": "Vincent Malaisé <vincent.mlse.dev@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ]
+}
