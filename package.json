@@ -1,6 +1,6 @@
 {
   "name": "free-mobile-api-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js module to send SMS using the Free Mobile API",
   "main": "index.js",
   "scripts": {
